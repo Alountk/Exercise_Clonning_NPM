@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+  margin: 0 0;
+}
+header {
+    height: auto;
+    
+}
+header > div {
+    height: auto;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    margin: 0;
+}
+
+/*Division Search*/
+
+.head-search {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.bt {
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+.b--black-10{
+    border-color: rgba(0,0,0,.1);
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.head-search-down {
+
+}
+
+.form-search{
+    width: 50%;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.flex-auto {
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: 0;
+}
+
+.head-black-heart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 25px;
+}
+
+.head-black-heart li {
+    margin-right: 10px;
+}
+
+.blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+}
+.npm-logo {
+    width: 60px;
+    margin-right: 1rem;
+}
+.magnifying-glass {
+    width: 15px;
+    background-color: lightgray;
+    align-content: center;
+}
+
+.search{
+    text-align: center;
+    border: 1px solid lightgray;
+    color: black;
+    background-color: lightgray;
+}
+.search-bar {
+    display: flex;
+}
+.npm-icon {
+    padding-top: 8px;
+    flex-grow: 0;
+}
