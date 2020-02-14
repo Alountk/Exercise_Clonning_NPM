@@ -4,14 +4,18 @@ body {
   font-family: 'Poppins';
   margin: 0 0;
 }
-header {
-    height: auto;
-    
+/*Tratando la web como un flex*/
+.box-flex {
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+
 }
-header > div {
-    height: auto;
-    align-items: center;
-    border-bottom: 1px solid lightgray;
+header {
+    box-shadow: 0 4px 13px -3px rgba(0, 0, 0, 0.10196);
+    border-bottom: 1px solid #d2d2d2;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
 }
 nav ul {
     list-style: none;
@@ -21,7 +25,46 @@ nav ul {
     width: auto;
     margin: 0;
 }
+/*Division Black Heart*/
 
+.head-black-heart {
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    padding: 8px 0;
+}
+.black-heart-down {
+    background-color: #ffffff;
+}
+
+.head-black-heart li {
+    margin-right: 10px;
+}
+.span-heart {
+    display: none;
+    font-family: 'Poppins';
+    color: #000;
+    letter-spacing: 0.015625em;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    font-weight: 100;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.black-heart {
+    height: 20px;
+    padding-right: 1rem;
+}
+.nav-black-heart {
+    justify-content: flex-end;
+}
 /*Division Search*/
 
 .head-search {
@@ -30,12 +73,35 @@ nav ul {
     justify-content: center;
     background-color: #ffffff;
 }
+
+/*Ajustes genericos*/
+.w-auto {
+    width: auto;
+}
+.just-sp-bet {
+    justify-content: space-between;
+}
+
+.ph4-ns {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 .bt {
     border-top-style: solid;
     border-top-width: 1px;
 }
 .b--black-10{
     border-color: rgba(0,0,0,.1);
+}
+.flex {
+    display: flex;
+}
+.max96 {
+    max-width: 96rem;
+}
+.center {
+    margin-right: auto;
+    margin-left: auto;
 }
 nav a {
     text-decoration: none;
@@ -58,22 +124,7 @@ nav a {
     max-width: 0;
 }
 
-.head-black-heart {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid lightgray;
-    padding: 10px 25px;
-}
 
-.head-black-heart li {
-    margin-right: 10px;
-}
-
-.blackHeart {
-    width: 20px;
-    margin-right: 1rem;
-}
 .npm-logo {
     width: 60px;
     margin-right: 1rem;
