@@ -91,6 +91,7 @@ nav ul {
     line-height: 1.25;
     margin:.67em 0;
     text-align: center;
+    padding: 4rem 1rem;
 }
 .build-amazing-article {
     max-width: 32rem;
@@ -135,8 +136,73 @@ nav ul {
     font-weight: 700;
     display: block;
 }
-
+/*Bring the Best*/
+.btb-down {
+    margin-bottom: 4rem;
+}
+.btb-down > img {
+    margin-bottom: 2rem;
+    display: inline;
+    height: 175px;
+}
+/*Footer*/
+.footer {
+    text-align: left;
+}
+.footer img{
+    height: 15px;
+}
 /*Ajustes genericos*/
+.pb-1rem {
+    padding-bottom: 1rem;
+}
+.w-25 {
+    width: 25%;
+}
+.w-50 {
+    width: 50%;
+} 
+.w-100 {
+    width: 100%;
+}
+.pa-1rem {
+    padding: 1rem;
+}
+.ph-1rem {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.pb-4rem {
+    padding-bottom: 4rem;
+}
+.pb-1rem {
+    padding-bottom: 1rem;
+}
+.bg-white {
+    background-color: #CCC2C0;
+}
+.bg-grey{
+    background-color: #333;
+}
+.pv-5rem{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.mw-64 {
+    max-width: 64rem;
+}
+.mw-48 {
+    max-width: 48rem;
+}
+.mw-32 {
+    max-width: 32rem;
+}
+.mb-1rem {
+    margin-bottom: 1rem;
+}
+.lh-copy {
+    line-height: 1.5;
+}
 .w-auto {
     width: auto;
 }
@@ -174,6 +240,9 @@ nav ul {
 .center {
     margin-right: auto;
     margin-left: auto;
+}
+.tl {
+    text-align: left;
 }
 .tx {
     text-align: center;
