@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
-
+* {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
 body {
   font-family: 'Poppins';
   margin: 0 0;
@@ -73,6 +78,63 @@ nav ul {
     justify-content: center;*/
     background-color: #ffffff;
 }
+/* Primera seccion*/
+#buil-amazing {
+    padding: 4rem 1rem;
+    color: #000;
+    max-width: 48rem;
+}
+#build-amazing > h1 {
+    font-family: Poppins,sans-serif;
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 1.25;
+    margin:.67em 0;
+    text-align: center;
+}
+.build-amazing-article {
+    max-width: 32rem;
+    line-height: 1.5;
+    
+}
+.botonera-body {
+    margin-top: 4rem;
+}
+
+.see-plans {
+    padding-right: 1rem;
+    width: 50%;
+    padding-bottom: 1rem;
+}
+.see-plans a{
+    font-family: Poppins,sans-serif;
+    background: #c12127;
+    border-bottom: solid 5px #fa8717;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    max-width: 16rem;
+    text-decoration: none;
+    padding:1rem 2rem;
+    color: #333;
+    font-weight: 700;
+    display: block;
+}
+.join-for-free {
+    padding-left: 1rem;
+    width: 50%;
+    padding-bottom: 1rem;
+}
+.join-for-free a{
+    font-family: Poppins, sans-serif;
+    background: #CCC2C0;
+    border-bottom: solid 5px #8E8C8B;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    max-width: 16rem;
+    text-decoration: none;
+    padding:1rem 2rem;
+    color: #fff;
+    font-weight: 700;
+    display: block;
+}
 
 /*Ajustes genericos*/
 .w-auto {
@@ -112,6 +174,9 @@ nav ul {
 .center {
     margin-right: auto;
     margin-left: auto;
+}
+.tx {
+    text-align: center;
 }
 nav a {
     text-decoration: none;
